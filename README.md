@@ -14,4 +14,11 @@ https://nodejs.org/en/download
 
 # 3
 
+```npm install --save styled-components```
+
+# 4
+
 ```npm start```
+
+
+
