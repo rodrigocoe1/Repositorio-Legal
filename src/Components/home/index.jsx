@@ -1,9 +1,12 @@
-import B from '../imagens/B.png';
+import B from '../Imagens/B.jpg';
 
 const Home = ()=>{
     return(
         <>
+            <div class="B">
             <img src={B}/>
+            </div>
+           
         </>
     );
 }

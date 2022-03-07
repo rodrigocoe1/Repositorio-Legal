@@ -2,6 +2,7 @@ import React from "react";
 import './navbar.css';
 import  a from '../Imagens/a.jpg'; 
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 function Navbar(){
     return( 
@@ -9,7 +10,7 @@ function Navbar(){
         <nav class="navbar navbar-expand-lg navbar-light NavBar">
             <div class="container-fluid">
                 <Sitelegal src={a}/>
-                <a class="" href="#">Home</a>
+                <Link to="/">Home</Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -19,7 +20,7 @@ function Navbar(){
                     <a class="" aria-current="page" href="#">Home 2</a>
                     </li>
                     <li class="nav-item">
-                    <a class="" href="#">coisas legais</a>
+                    <Link to="/Coisas_Legais">Coisas legais</Link>
                     </li>
                     <li class="nav-item dropdown">
                     <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

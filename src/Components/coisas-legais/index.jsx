@@ -1,4 +1,4 @@
-import C from '../imagens/C.pnj';
+import C from '../Imagens/C.jpg';
 
 const Coisas_legais = ()=>{
     return(
